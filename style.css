@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.vitoria-derrota-empate {
+    height: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vitoria {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #3AA757;
+    color: white;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.182);
+}
+
+
+.derrota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #EA4335;
+    color: white;
+    font-size: 0.8rem;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.182);
+}
+
+.empate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #9AA0A6;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.182);
+}
+
+
+img {
+    width: 28px;
+    height: 28px;
+    
+    
+}
+
+
+table {
+    height:100vh;
+    width: 50%;
+    min-width: 482px;
+    text-align: center;
+    border: 1px solid #ced0d1;
+    box-shadow: 0 0 10px  #9AA0A6;
+    
+    
+}
+
+
+.g4 {
+    position:relative;
+}
+
+.linhablueg4 {
+    position: absolute;
+    left: -2px;
+    height: 39px;
+    width: 3px;
+    border-radius: 30px;
+    background-color: #4285F4;
+}
+
+.z4 {
+    position: relative;
+}
+
+.linharedz4 {
+    position: absolute;
+    left: -2px;
+    height: 39px;
+    width: 3px;
+    border-radius: 30px;
+    background-color: #EA4335;
+}
+
+.g6 {
+    position: relative;
+}
+
+.linhayellowg6 {
+    position: absolute;
+    left: -2px;
+    height: 39px;
+    width: 3px;
+    border-radius: 30px;
+    background-color: #FA7B17;
+}
+
+.sula {
+    position: relative;
+}
+
+.linhagreensula {
+    position: absolute;
+    left: -2px;
+    height: 39px;
+    width: 3px;
+    border-radius: 30px;
+    background-color: #34A853;
+}
+
+.backgroundblueg4 {
+    background-color: rgba(0, 0, 255, 0.20);
+}
+
+.backgroundblueg4:hover {
+    background-color: rgba(0, 0, 255, 0.319);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.backgroundredz4 {
+    background-color: rgb(234, 67, 53, 0.20);
+}
+
+.backgroundredz4:hover {
+    background-color: rgb(234, 67, 53, 0.319);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.backgroundg6 {
+    background-color: rgb(250, 123, 23, 0.20);
+}
+
+.backgroundg6:hover {
+    background-color: rgb(250, 123, 23, 0.319);
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.backgroundsula {
+    background-color: rgb(52, 168, 83, 0.20);
+}
+
+.backgroundsula:hover {
+    background-color: rgb(52, 168, 83, 0.319);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.backgroundheader {
+    background-color: rgba(154, 160, 166, 0.097);
+}
+
+.td-width {
+    width: 5%;
+}
+
+table caption {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-shadow: 1px 1px 5px #4285F4;
+    text-transform: uppercase;
+}
+
+
+table thead tr th:nth-child(1) {
+    text-align: left;
+    padding: 10px 6px;   
+}
+
+table tbody tr td:nth-child(1) {
+    text-align: left;
+    padding: 10px 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    gap: 2px;   
+    
+}
+
+.rodape {
+    border: 1px solid #9AA0A6;
+    background-color: #F8F9FA;
+    width: 50%;
+    min-width: 482px;
+    bottom: -390px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.qualificacao-rebaixamento {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+   
+}
+
+.qualificacao-rebaixamento .square-blue {
+    height: 8px;
+    width: 8px;
+    background-color: #4285F4;
+    display: flex;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.182);
+    
+    
+    
+}
+
+.qualificacao-rebaixamento .square-red {
+    height: 8px;
+    width: 8px;
+    background-color: #EA4335;
+    display: flex;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.182);
+}
+
+.qualificacao-rebaixamento .square-yellow {
+    height: 8px;
+    width: 8px;
+    background-color: #FA7B17;
+    display: flex;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.182);
+}
+
+.qualificacao-rebaixamento .square-green {
+    height: 8px;
+    width: 8px;
+    background-color: #34A853;
+    display: flex;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.182);
+}
+
+.promo {
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
+
+.ultimas5partidas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ultimas5partidas .vitoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimas5partidas .ultimas5partidas-vitoria {
+    display: flex;
+    gap: 5px;
+    
+} 
+
+.ultimas5partidas .ultimas5partidas-empate {
+    display: flex;
+    gap: 5px;
+}
+
+.ultimas5partidas .ultimas5partidas-derrota {
+    display: flex;
+    gap: 5px;
+}
+
